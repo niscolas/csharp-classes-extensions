@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace __Utils._ClassExtensions.LanguageExtensions {
+namespace Plugins.ClassExtensions.CsharpExtensions {
 	public static class RandomExtensions {
 		public static bool CheckSuccess(this Random randomGen, float chancePercentage) {
 			float attemptChance = randomGen.NextPositiveFloat();

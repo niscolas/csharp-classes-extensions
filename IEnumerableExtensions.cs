@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace __Utils._ClassExtensions.LanguageExtensions {
+namespace Plugins.ClassExtensions.CsharpExtensions {
 	public static class EnumerableExtensions {
 		public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable) {
 			return enumerable == null || !enumerable.Any();

@@ -1,4 +1,4 @@
-﻿namespace __Utils._ClassExtensions.LanguageExtensions {
+﻿namespace Plugins.ClassExtensions.CsharpExtensions {
 	public static class IntExtensions {
 		public static bool IsValidIndex(this int i, int length) {
 			return i >= 0 && i < length;

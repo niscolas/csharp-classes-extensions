@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace __Utils._ClassExtensions.LanguageExtensions {
+namespace Plugins.ClassExtensions.CsharpExtensions {
 	public static class ArrayExtensions {
 		public static IEnumerable<T> GetColumn<T>(this T[][] jaggedArray, int column) {
 			return jaggedArray.Select(row => row[column]);

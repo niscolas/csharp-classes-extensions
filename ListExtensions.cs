@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace __Utils._ClassExtensions.LanguageExtensions {
+namespace Plugins.ClassExtensions.CsharpExtensions {
 	public static class ListExtensions {
 		private static readonly Random RandomGen = new Random();
 
